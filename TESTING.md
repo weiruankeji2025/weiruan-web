@@ -102,43 +102,43 @@
 ### 手动测试步骤
 
 1. **准备工作**
-```bash
+\`\`\`bash
 # 1. 安装 Tampermonkey
 # 2. 获取 OpenAI API Key
 # 3. 准备测试网站列表
-```
+\`\`\`
 
 2. **基础功能测试**
-```
+\`\`\`
 - 安装脚本
 - 访问 https://www.bbc.com/news
 - 配置 API Key
 - 点击分析按钮
 - 验证结果准确性
-```
+\`\`\`
 
 3. **UI 测试**
-```
+\`\`\`
 - 测试所有按钮点击
 - 测试拖拽功能
 - 测试主题切换
 - 测试响应式布局
-```
+\`\`\`
 
 4. **边界情况测试**
-```
+\`\`\`
 - 空白页面
 - 纯图片页面
 - 非常短的页面
 - 非常长的页面
 - 特殊字符内容
-```
+\`\`\`
 
 ### 浏览器控制台测试
 
 打开浏览器控制台，运行以下测试：
 
-```javascript
+\`\`\`javascript
 // 测试内容提取
 console.log('测试内容提取...');
 const content = extractPageContent();
@@ -152,7 +152,7 @@ console.log('存储值:', GM_getValue('test_key'));
 // 测试 API 调用（需要有效的 API Key）
 console.log('测试 API 调用...');
 // 手动触发分析查看网络请求
-```
+\`\`\`
 
 ## 📊 测试结果记录
 
@@ -183,7 +183,7 @@ console.log('测试 API 调用...');
 
 如果需要更严格的测试，可以考虑：
 
-```javascript
+\`\`\`javascript
 // 创建自动化测试脚本
 // test-automation.js
 
@@ -199,7 +199,7 @@ async function runTests() {
         // 执行测试逻辑
     }
 }
-```
+\`\`\`
 
 ## 📋 提交前检查
 

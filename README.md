@@ -131,7 +131,7 @@
 
 如需修改默认配置，可编辑脚本中的 `CONFIG` 对象：
 
-```javascript
+\`\`\`javascript
 const CONFIG = {
     API_PROVIDER: 'openai',  // 默认提供商: openai, gemini, claude, qwen, zhipu, siliconflow, ohmygpt
     API_KEY: '',  // 默认 API Key
@@ -139,7 +139,7 @@ const CONFIG = {
     REQUEST_COOLDOWN: 15000,  // 请求冷却时间（毫秒）
     CACHE_EXPIRY: 3600000,  // 缓存过期时间（毫秒，默认1小时）
 };
-```
+\`\`\`
 
 ## 📝 注意事项
 
